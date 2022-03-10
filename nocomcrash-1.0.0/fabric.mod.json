@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nocomcrash",
+  "version": "1.0.0",
+  "name": "No comment crash",
+  "description": "No comment",
+  "authors": [
+    "0x150"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://www.youtube.com/c/0x150"
+  },
+  "license": "MIT",
+  "icon": "assets/nocomcrash/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.x150.nocomcrash.NoComCrash"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "nocomcrash.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12"
+  }
+}
